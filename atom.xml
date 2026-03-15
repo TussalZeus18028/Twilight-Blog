@@ -5,12 +5,12 @@
         <link href="https://twilight.spr-aachen.com/" rel="alternate" type="text/html"/>
         <link href="https://twilight.spr-aachen.com/atom.xml" rel="self" type="application/atom+xml"/>
         <id>https://twilight.spr-aachen.com/</id>
-        <updated>2026-03-15T07:27:55.948Z</updated>
+        <updated>2026-03-15T08:57:34.291Z</updated>
         <language>en</language>
         <entry>
             <title>Guide for Template - Getting Started</title>
-            <link href="https://twilight.spr-aachen.com/posts/guide/getting-started/" rel="alternate" type="text/html"/>
-            <id>https://twilight.spr-aachen.com/posts/guide/getting-started/</id>
+            <link href="https://twilight.spr-aachen.com/Twilight-Blog/posts/guide/getting-started/" rel="alternate" type="text/html"/>
+            <id>https://twilight.spr-aachen.com/Twilight-Blog/posts/guide/getting-started/</id>
             <published>2001-10-02T00:00:00.000Z</published>
             <updated>2001-10-02T00:00:00.000Z</updated>
             <summary>How to use this blog template.</summary>
@@ -107,8 +107,8 @@ draft: false
             </entry>
         <entry>
             <title>Guide for Template - Advanced Customization</title>
-            <link href="https://twilight.spr-aachen.com/posts/guide/advanced-guide/" rel="alternate" type="text/html"/>
-            <id>https://twilight.spr-aachen.com/posts/guide/advanced-guide/</id>
+            <link href="https://twilight.spr-aachen.com/Twilight-Blog/posts/guide/advanced-guide/" rel="alternate" type="text/html"/>
+            <id>https://twilight.spr-aachen.com/Twilight-Blog/posts/guide/advanced-guide/</id>
             <published>2024-02-10T00:00:00.000Z</published>
             <updated>2024-02-10T00:00:00.000Z</updated>
             <summary>Master the advanced features and customization options of the Twilight template.</summary>
@@ -237,8 +237,8 @@ This is a note with a custom title.
             </entry>
         <entry>
             <title>Video Example</title>
-            <link href="https://twilight.spr-aachen.com/posts/videos/" rel="alternate" type="text/html"/>
-            <id>https://twilight.spr-aachen.com/posts/videos/</id>
+            <link href="https://twilight.spr-aachen.com/Twilight-Blog/posts/videos/" rel="alternate" type="text/html"/>
+            <id>https://twilight.spr-aachen.com/Twilight-Blog/posts/videos/</id>
             <published>2021-12-02T00:00:00.000Z</published>
             <updated>2021-12-02T00:00:00.000Z</updated>
             <summary>This post demonstrates how to embed video in a blog post.</summary>
@@ -267,8 +267,8 @@ published: 2023-10-19
             </entry>
         <entry>
             <title>Mermaid Example</title>
-            <link href="https://twilight.spr-aachen.com/posts/mermaids/" rel="alternate" type="text/html"/>
-            <id>https://twilight.spr-aachen.com/posts/mermaids/</id>
+            <link href="https://twilight.spr-aachen.com/Twilight-Blog/posts/mermaids/" rel="alternate" type="text/html"/>
+            <id>https://twilight.spr-aachen.com/Twilight-Blog/posts/mermaids/</id>
             <published>2011-11-02T00:00:00.000Z</published>
             <updated>2011-11-02T00:00:00.000Z</updated>
             <summary>A simple example of a Markdown blog post with Mermaid.</summary>
