@@ -5,7 +5,7 @@
         <link href="https://twilight.spr-aachen.com/" rel="alternate" type="text/html"/>
         <link href="https://twilight.spr-aachen.com/atom.xml" rel="self" type="application/atom+xml"/>
         <id>https://twilight.spr-aachen.com/</id>
-        <updated>2026-03-15T09:19:38.038Z</updated>
+        <updated>2026-03-15T10:56:27.562Z</updated>
         <language>en</language>
         <entry>
             <title>Guide for Template - Getting Started</title>
@@ -104,6 +104,76 @@ draft: false
             </author>
             <category term="Guides"></category>
             <category term="Guides / Getting Started"></category>
+            </entry>
+        <entry>
+            <title>Twilight 博客模板完全指南：从零开始到高级定制</title>
+            <link href="https://twilight.spr-aachen.com/Twilight-Blog/posts/first-post/" rel="alternate" type="text/html"/>
+            <id>https://twilight.spr-aachen.com/Twilight-Blog/posts/first-post/</id>
+            <published>2026-03-15T00:00:00.000Z</published>
+            <updated>2026-03-15T00:00:00.000Z</updated>
+            <summary>本文全面介绍 Twilight 博客模板的安装、基础配置和高级功能，助您快速打造个性化博客。</summary>
+            <content type="html"><![CDATA[<h1>Twilight 博客模板完全指南：从零开始到高级定制</h1>
+<p>欢迎使用 <strong>Twilight</strong> 博客模板！这是一个基于 Astro 构建的现代化、高度可定制的静态博客模板。无论您是刚接触静态站点生成器的新手，还是希望深度定制博客外观的老手，本教程都将带您逐步掌握 Twilight 的所有核心功能。</p>
+<p>本教程分为三大部分：</p>
+<ol>
+<li><strong>快速入门</strong>：学习如何创建文章、配置 Frontmatter 以及组织文件。</li>
+<li><strong>高级定制</strong>：深入全局配置文件，解锁 Markdown 扩展的炫酷玩法。</li>
+<li><strong>实战示例</strong>：综合运用所学，打造一篇功能丰富的示例文章。</li>
+</ol>
+<p>让我们开始吧！</p>
+<hr />
+<h2>第一部分：快速入门</h2>
+<p>在开始写博客之前，您需要了解如何正确地创建一篇文章。Twilight 遵循 Astro 的内容集合规范，所有文章都存放在 <code>src/content/posts/</code> 目录下。</p>
+<h3>1.1 文章前置配置（Frontmatter）</h3>
+<p>每篇文章的 Markdown 文件必须以 <code>---</code> 包裹的 YAML 前置配置开头，用于定义文章的元数据。以下是一个典型的示例：</p>
+<pre><code>---
+title: My First Blog Post
+published: 2020-02-02
+description: This is the first post of my new Astro blog.
+cover: ./cover.jpg
+coverInContent: false
+tags: []
+category: Guides
+comment: true
+draft: false
+---</code></pre>
+]]></content>
+            <author>
+                <name>Twilight</name>
+            </author>
+            <category term="Guides"></category>
+            <category term="Astro" label="Astro"></category>
+            <category term="教程" label="教程"></category>
+            <category term="博客" label="博客"></category>
+            </entry>
+        <entry>
+            <title>为什么我选择 Twilight 作为博客模板</title>
+            <link href="https://twilight.spr-aachen.com/Twilight-Blog/posts/deepseek_markdown_20260315_28c213/" rel="alternate" type="text/html"/>
+            <id>https://twilight.spr-aachen.com/Twilight-Blog/posts/deepseek_markdown_20260315_28c213/</id>
+            <published>2025-03-15T00:00:00.000Z</published>
+            <updated>2025-03-15T00:00:00.000Z</updated>
+            <summary>一个高度可定制、功能丰富的 Astro 博客主题。</summary>
+            <content type="html"><![CDATA[<h2>始于颜值，陷于功能</h2>
+<p>初次见到 Twilight，我就被它的简洁设计和丰富定制选项所吸引。它不仅能轻松调整主题色，还支持轮播壁纸和波浪动画。</p>
+<h3>全局配置示例</h3>
+<p>在 <code>twilight.config.yaml</code> 中，我将主题色改为温暖的橙色：</p>
+<pre><code>site:
+  themeColor:
+    hue: 30
+  wallpaper:
+    banner:
+      mode: carousel
+      waves:
+        enable: true</code></pre>
+]]></content>
+            <author>
+                <name>Twilight</name>
+            </author>
+            <category term="Guides"></category>
+            <category term="Guides / 心得"></category>
+            <category term="Astro" label="Astro"></category>
+            <category term="博客" label="博客"></category>
+            <category term="定制" label="定制"></category>
             </entry>
         <entry>
             <title>Guide for Template - Advanced Customization</title>

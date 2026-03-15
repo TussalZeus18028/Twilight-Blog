@@ -82,7 +82,44 @@ draft: false
     ├── cover.jpg
     └── index.md
 &lt;/code&gt;&lt;/pre&gt;
-</content:encoded><category>Guides / Getting Started</category></item><item><title>Guide for Template - Advanced Customization</title><link>https://twilight.spr-aachen.com/Twilight-Blog/posts/guide/advanced-guide/</link><guid isPermaLink="true">https://twilight.spr-aachen.com/Twilight-Blog/posts/guide/advanced-guide/</guid><description>Master the advanced features and customization options of the Twilight template.</description><pubDate>Sat, 10 Feb 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;This guide covers advanced customization options and features available in the Twilight template, from global configurations to specialized Markdown extensions.&lt;/p&gt;
+</content:encoded><category>Guides / Getting Started</category></item><item><title>Twilight 博客模板完全指南：从零开始到高级定制</title><link>https://twilight.spr-aachen.com/Twilight-Blog/posts/first-post/</link><guid isPermaLink="true">https://twilight.spr-aachen.com/Twilight-Blog/posts/first-post/</guid><description>本文全面介绍 Twilight 博客模板的安装、基础配置和高级功能，助您快速打造个性化博客。</description><pubDate>Sun, 15 Mar 2026 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;Twilight 博客模板完全指南：从零开始到高级定制&lt;/h1&gt;
+&lt;p&gt;欢迎使用 &lt;strong&gt;Twilight&lt;/strong&gt; 博客模板！这是一个基于 Astro 构建的现代化、高度可定制的静态博客模板。无论您是刚接触静态站点生成器的新手，还是希望深度定制博客外观的老手，本教程都将带您逐步掌握 Twilight 的所有核心功能。&lt;/p&gt;
+&lt;p&gt;本教程分为三大部分：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;快速入门&lt;/strong&gt;：学习如何创建文章、配置 Frontmatter 以及组织文件。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;高级定制&lt;/strong&gt;：深入全局配置文件，解锁 Markdown 扩展的炫酷玩法。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;实战示例&lt;/strong&gt;：综合运用所学，打造一篇功能丰富的示例文章。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;让我们开始吧！&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;第一部分：快速入门&lt;/h2&gt;
+&lt;p&gt;在开始写博客之前，您需要了解如何正确地创建一篇文章。Twilight 遵循 Astro 的内容集合规范，所有文章都存放在 &lt;code&gt;src/content/posts/&lt;/code&gt; 目录下。&lt;/p&gt;
+&lt;h3&gt;1.1 文章前置配置（Frontmatter）&lt;/h3&gt;
+&lt;p&gt;每篇文章的 Markdown 文件必须以 &lt;code&gt;---&lt;/code&gt; 包裹的 YAML 前置配置开头，用于定义文章的元数据。以下是一个典型的示例：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;---
+title: My First Blog Post
+published: 2020-02-02
+description: This is the first post of my new Astro blog.
+cover: ./cover.jpg
+coverInContent: false
+tags: []
+category: Guides
+comment: true
+draft: false
+---&lt;/code&gt;&lt;/pre&gt;
+</content:encoded><category>Guides</category><category>Astro</category><category>教程</category><category>博客</category></item><item><title>为什么我选择 Twilight 作为博客模板</title><link>https://twilight.spr-aachen.com/Twilight-Blog/posts/deepseek_markdown_20260315_28c213/</link><guid isPermaLink="true">https://twilight.spr-aachen.com/Twilight-Blog/posts/deepseek_markdown_20260315_28c213/</guid><description>一个高度可定制、功能丰富的 Astro 博客主题。</description><pubDate>Sat, 15 Mar 2025 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;始于颜值，陷于功能&lt;/h2&gt;
+&lt;p&gt;初次见到 Twilight，我就被它的简洁设计和丰富定制选项所吸引。它不仅能轻松调整主题色，还支持轮播壁纸和波浪动画。&lt;/p&gt;
+&lt;h3&gt;全局配置示例&lt;/h3&gt;
+&lt;p&gt;在 &lt;code&gt;twilight.config.yaml&lt;/code&gt; 中，我将主题色改为温暖的橙色：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;site:
+  themeColor:
+    hue: 30
+  wallpaper:
+    banner:
+      mode: carousel
+      waves:
+        enable: true&lt;/code&gt;&lt;/pre&gt;
+</content:encoded><category>Guides / 心得</category><category>Astro</category><category>博客</category><category>定制</category></item><item><title>Guide for Template - Advanced Customization</title><link>https://twilight.spr-aachen.com/Twilight-Blog/posts/guide/advanced-guide/</link><guid isPermaLink="true">https://twilight.spr-aachen.com/Twilight-Blog/posts/guide/advanced-guide/</guid><description>Master the advanced features and customization options of the Twilight template.</description><pubDate>Sat, 10 Feb 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;This guide covers advanced customization options and features available in the Twilight template, from global configurations to specialized Markdown extensions.&lt;/p&gt;
 &lt;h2&gt;Global Configuration&lt;/h2&gt;
 &lt;p&gt;The &lt;code&gt;twilight.config.yaml&lt;/code&gt; file is the heart of your blog&apos;s configuration. Here are some advanced settings you can tweak:&lt;/p&gt;
 &lt;h3&gt;Site &amp;amp; Localization&lt;/h3&gt;
