@@ -5,7 +5,7 @@
         <link href="https://twilight.spr-aachen.com/" rel="alternate" type="text/html"/>
         <link href="https://twilight.spr-aachen.com/atom.xml" rel="self" type="application/atom+xml"/>
         <id>https://twilight.spr-aachen.com/</id>
-        <updated>2026-03-29T08:11:19.497Z</updated>
+        <updated>2026-03-29T08:54:39.696Z</updated>
         <language>en</language>
         <entry>
             <title>Guide for Template - Getting Started</title>
@@ -246,35 +246,6 @@ draft: false
             <category term="Astro" label="Astro"></category>
             <category term="教程" label="教程"></category>
             <category term="博客" label="博客"></category>
-            </entry>
-        <entry>
-            <title>为什么我选择 Twilight 作为博客模板</title>
-            <link href="https://twilight.spr-aachen.com/Twilight-Blog/posts/deepseek_markdown_20260315_28c213/" rel="alternate" type="text/html"/>
-            <id>https://twilight.spr-aachen.com/Twilight-Blog/posts/deepseek_markdown_20260315_28c213/</id>
-            <published>2025-03-15T00:00:00.000Z</published>
-            <updated>2025-03-15T00:00:00.000Z</updated>
-            <summary>一个高度可定制、功能丰富的 Astro 博客主题。</summary>
-            <content type="html"><![CDATA[<h2>始于颜值，陷于功能</h2>
-<p>初次见到 Twilight，我就被它的简洁设计和丰富定制选项所吸引。它不仅能轻松调整主题色，还支持轮播壁纸和波浪动画。</p>
-<h3>全局配置示例</h3>
-<p>在 <code>twilight.config.yaml</code> 中，我将主题色改为温暖的橙色：</p>
-<pre><code>site:
-  themeColor:
-    hue: 30
-  wallpaper:
-    banner:
-      mode: carousel
-      waves:
-        enable: true</code></pre>
-]]></content>
-            <author>
-                <name>Twilight</name>
-            </author>
-            <category term="Guides"></category>
-            <category term="Guides / 心得"></category>
-            <category term="Astro" label="Astro"></category>
-            <category term="博客" label="博客"></category>
-            <category term="定制" label="定制"></category>
             </entry>
         <entry>
             <title>Guide for Template - Advanced Customization</title>
